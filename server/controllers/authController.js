@@ -18,7 +18,7 @@ export const login = async (req, res) => {
   });
 };
 
-// 👉 ADD THIS (ROLE SELECTION)
+// ADD THIS (ROLE SELECTION)
 export const setRole = async (req, res) => {
   const { role } = req.body;
 
